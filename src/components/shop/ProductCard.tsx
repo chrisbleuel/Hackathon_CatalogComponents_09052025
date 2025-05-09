@@ -97,7 +97,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
                   selectedColor === index ? 'border-[#202327]' : ''
                 }`}>
                   <div
-                    className="self-stretch flex min-h-6 w-6 h-6 my-auto rounded-[19px]"
+                    className="self-stretch flex min-h-6 w-6 h-6 my-auto rounded-[19px] bg-[#8E9196]"
                     style={{ backgroundColor: color.color }}
                   />
                 </div>
