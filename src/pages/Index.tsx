@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Header } from '@/components/shop/Header';
 import { ProductGrid } from '@/components/shop/ProductGrid';
@@ -12,13 +13,13 @@ const Index = () => {
         
         {/* Hero Section */}
         <div className="relative w-full overflow-hidden">
-          <div className="flex flex-col overflow-hidden relative z-0 min-h-[426px] w-full flex-wrap">
+          <div className="flex flex-col overflow-hidden relative z-0 h-[426px] w-full flex-wrap">
             <img src="https://cdn.builder.io/api/v1/image/assets/473d424b1c61442992c0c3820764778e/66222e0108bdb0df614de468215b822f8018264d?placeholderIfAbsent=true" className="absolute h-full w-full object-cover inset-0" alt="Hero background" />
             
             {/* Decorative rotated elements */}
             {[1, 2, 3].map((_, index) => (
               <div key={index} className="relative min-w-60 flex-1 shrink basis-[0%]">
-                <div className="flex w-full flex-col overflow-hidden items-stretch justify-center">
+                <div className="flex w-full flex-col overflow-hidden items-stretch justify-center h-[426px]">
                   <div className="rotate-[-0.523598777524314rad] flex min-h-[213px] w-full" />
                 </div>
                 <div className="flex min-h-[213px] w-full" />
