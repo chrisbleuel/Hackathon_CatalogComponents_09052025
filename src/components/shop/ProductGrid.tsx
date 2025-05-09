@@ -6,7 +6,6 @@ import {
   PopoverContent, 
   PopoverTrigger 
 } from '@/components/ui/popover';
-import { Button } from '@/components/ui/button';
 import { Filter, Grid3X3 } from 'lucide-react';
 
 export const ProductGrid = () => {
@@ -116,17 +115,13 @@ export const ProductGrid = () => {
         name: "White Gold",
         color: "#B4C0CA"
       }]} />
-        
-        <div className="flex flex-col self-stretch relative min-h-[500px] sm:min-h-[608px] min-w-[280px] sm:min-w-[400px] max-w-[635px] text-white flex-1 shrink basis-12 my-auto">
+        <div className="flex flex-col self-stretch relative min-h-[608px] min-w-[400px] max-w-[635px] text-white flex-1 shrink basis-12 my-auto">
           <img src="https://cdn.builder.io/api/v1/image/assets/473d424b1c61442992c0c3820764778e/ee4670aabca2424af1540413d6d39e915bea7518?placeholderIfAbsent=true" className="absolute h-full w-full object-cover inset-0" alt="Quiz banner" />
-          <div className="relative w-full flex-1 px-4 sm:px-8 py-8 sm:py-12 flex flex-col justify-center">
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 sm:mb-4">Not sure which frames suit you?</h2>
-            <p className="text-sm sm:text-base mb-6 max-w-[90%] sm:max-w-[80%]">Take our quick quiz to find the perfect frames for your face shape and style preferences.</p>
+          <div className="relative w-full flex-1 px-8 py-12">
             
-            <div className="w-full text-base font-medium mt-2 pt-4">
-              <Button className="bg-white text-[#32373E] hover:bg-gray-100 px-4 py-2 text-sm sm:text-base rounded-md">
-                Take the quiz
-              </Button>
+            
+            <div className="w-full text-base text-white font-medium tracking-[0.32px] mt-2 pt-4">
+              
             </div>
           </div>
         </div>
@@ -144,18 +139,11 @@ export const ProductGrid = () => {
         name: "Red",
         color: "#E71E1E"
       }]} />
-        
-        <div className="flex flex-col self-stretch relative min-h-[500px] sm:min-h-[608px] min-w-[280px] sm:min-w-[400px] max-w-[635px] text-white flex-1 shrink basis-12 my-auto">
+        <div className="flex flex-col self-stretch relative min-h-[608px] min-w-[400px] max-w-[635px] text-white flex-1 shrink basis-12 my-auto">
           <img src="https://cdn.builder.io/api/v1/image/assets/473d424b1c61442992c0c3820764778e/33ce3515a31861dcc641d092501eeebc32369693?placeholderIfAbsent=true" className="absolute h-full w-full object-cover inset-0" alt="ZEISS quality" />
-          <div className="relative w-full flex-1 py-8 sm:py-12 px-4 sm:px-8 flex flex-col justify-center">
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3 sm:mb-4">ZEISS Quality Lenses</h2>
-            <p className="text-sm sm:text-base mb-6 max-w-[90%] sm:max-w-[80%]">All our frames come with premium ZEISS lenses for crystal-clear vision.</p>
+          <div className="relative w-full flex-1 py-12 px-[32px]">
             
-            <div className="w-full text-base font-medium mt-2 pt-4">
-              <Button className="bg-white text-[#32373E] hover:bg-gray-100 px-4 py-2 text-sm sm:text-base rounded-md">
-                Learn more
-              </Button>
-            </div>
+            
           </div>
         </div>
         <ProductCard model="SC655A" price="999,00" images={["https://cdn.builder.io/api/v1/image/assets/473d424b1c61442992c0c3820764778e/fb987d38b26e2e215923209867e5917893f39ef0?placeholderIfAbsent=true", "https://cdn.builder.io/api/v1/image/assets/473d424b1c61442992c0c3820764778e/50d9e141705950f0d857d27d415f4e04997a2fd4?placeholderIfAbsent=true"]} brandLogo="https://cdn.builder.io/api/v1/image/assets/473d424b1c61442992c0c3820764778e/50d9e141705950f0d857d27d415f4e04997a2fd4?placeholderIfAbsent=true" sizes={[]} colors={[{
